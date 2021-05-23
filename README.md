@@ -9,7 +9,7 @@ Config for Typescript projects at Labrys which incorporates AirBnb, prettier, an
 ### Installation
 
 ```bash
-npm install eslint-config-labrys
+npm install --save-dev eslint-config-labrys
 ```
 
 ### Install required peer dependencies
