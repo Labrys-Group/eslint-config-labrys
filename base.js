@@ -38,5 +38,6 @@ module.exports = {
       },
     ],
     "arrow-body-style": 2,
+    quotes: ["error", "double"],
   },
 };
