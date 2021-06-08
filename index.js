@@ -46,5 +46,6 @@ module.exports = {
         alphabetize: { order: "asc", caseInsensitive: true },
       },
     ],
+    "react/prop-types": 0,
   },
 };
