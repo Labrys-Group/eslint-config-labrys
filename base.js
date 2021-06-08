@@ -37,5 +37,6 @@ module.exports = {
         alphabetize: { order: "asc", caseInsensitive: true },
       },
     ],
+    "arrow-body-style": 2,
   },
 };
