@@ -8,6 +8,8 @@ module.exports = {
     "eslint:recommended",
     "plugin:@typescript-eslint/eslint-recommended",
     "airbnb",
+    "plugin:import/recommended",
+    "plugin:import/typescript",
     "prettier",
     "prettier/@typescript-eslint",
   ],
@@ -17,9 +19,6 @@ module.exports = {
   },
   parser: "@typescript-eslint/parser",
   parserOptions: {
-    ecmaFeatures: {
-      jsx: true,
-    },
     ecmaVersion: 2018,
     sourceType: "module",
   },
