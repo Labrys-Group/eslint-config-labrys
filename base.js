@@ -30,5 +30,12 @@ module.exports = {
     "@typescript-eslint/no-use-before-define": ["error"],
     "no-undef": 0,
     "no-unused-vars": 0,
+    "import/order": [
+      "error",
+      {
+        "newlines-between": "always",
+        alphabetize: { order: "asc", caseInsensitive: true },
+      },
+    ],
   },
 };

@@ -39,5 +39,12 @@ module.exports = {
     "react/require-default-props": 0,
     "no-undef": 0,
     "no-unused-vars": 0,
+    "import/order": [
+      "error",
+      {
+        "newlines-between": "always",
+        alphabetize: { order: "asc", caseInsensitive: true },
+      },
+    ],
   },
 };
