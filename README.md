@@ -9,7 +9,7 @@ Config for Typescript projects at Labrys which incorporates AirBnb, prettier, an
 ### Installation
 
 ```bash
-npm install eslint-config-labrys
+npm install --save-dev eslint-config-labrys
 ```
 
 ### Install required peer dependencies
@@ -17,13 +17,13 @@ npm install eslint-config-labrys
 for React:
 
 ```bash
-npm install eslint @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-import eslint-plugin-jsx-a11y typescript
+npm install --save-dev eslint @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-import eslint-plugin-jsx-a11y typescript
 ```
 
 for base:
 
 ```bash
-npm install eslint @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-plugin-import eslint-plugin-jsx-a11y typescript
+npm install --save-dev eslint @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-plugin-import eslint-plugin-jsx-a11y typescript
 ```
 
 ### Create Eslint Config
