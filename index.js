@@ -3,7 +3,6 @@ module.exports = {
     "eslint-config-labrys/base",
     "plugin:react/recommended",
     "plugin:react-hooks/recommended",
-    "plugin:@shopify/react",
     "airbnb/hooks",
     "prettier/react",
   ],
