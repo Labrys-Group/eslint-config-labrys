@@ -40,5 +40,7 @@ module.exports = {
     "arrow-body-style": 2,
     "no-underscore-dangle": 0,
     quotes: ["error", "double"],
+    "no-shadow": "off",
+    "@typescript-eslint/no-shadow": ["error"],
   },
 };
