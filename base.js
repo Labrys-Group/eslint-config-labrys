@@ -11,7 +11,6 @@ module.exports = {
     "plugin:import/recommended",
     "plugin:import/typescript",
     "plugin:@shopify/typescript",
-    "plugin:@shopify/typescript-type-checking",
     "plugin:@shopify/prettier",
     "prettier",
     "prettier/@typescript-eslint",
