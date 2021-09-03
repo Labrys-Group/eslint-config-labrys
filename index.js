@@ -11,6 +11,6 @@ module.exports = {
     "react/jsx-filename-extension": [1, { extensions: [".tsx"] }],
     "react/require-default-props": 0,
     "react/prop-types": 0,
-    quotes: ["error", "double"],
+    "@shopify/eslint-plugin/jsx-no-complex-expressions": 1,
   },
 };

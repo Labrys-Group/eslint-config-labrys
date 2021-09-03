@@ -46,6 +46,5 @@ module.exports = {
     "@shopify/eslint-plugin/prefer-early-return": 1,
     "@shopify/eslint-plugin/typescript/prefer-pascal-case-enums": 2,
     "@shopify/eslint-plugin/typescript/prefer-singular-enums": 2,
-    "@shopify/eslint-plugin/jsx-no-complex-expressions": 1,
   },
 };
