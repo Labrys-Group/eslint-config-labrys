@@ -2,7 +2,7 @@
 
 ## Description
 
-Config for Typescript projects at Labrys which incorporates AirBnb, prettier, and React Hook configs. Feel free to add/modify rules through pull requests.
+Config for Typescript projects at Labrys which incorporates AirBnb, Shopify, prettier, and React Hook configs. Feel free to add/modify rules through pull requests (send me a slack message so I don't miss it).
 
 ## Usage
 
@@ -17,13 +17,13 @@ npm install --save-dev eslint-config-labrys
 for React:
 
 ```bash
-npm install --save-dev eslint @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-import eslint-plugin-jsx-a11y typescript
+npm install --save-dev eslint @typescript-eslint/eslint-plugin @typescript-eslint/parser @shopify/eslint-plugin eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-import eslint-plugin-jsx-a11y typescript
 ```
 
 for base:
 
 ```bash
-npm install --save-dev eslint @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-plugin-import eslint-plugin-jsx-a11y typescript
+npm install --save-dev eslint @typescript-eslint/eslint-plugin @typescript-eslint/parser @shopify/eslint-plugin eslint-plugin-import eslint-plugin-jsx-a11y typescript
 ```
 
 ### Create Eslint Config
