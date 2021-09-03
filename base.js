@@ -22,7 +22,7 @@ module.exports = {
     ecmaVersion: 2018,
     sourceType: "module",
   },
-  plugins: ["@typescript-eslint", "@shopify/eslint-plugin"],
+  plugins: ["@typescript-eslint", "@shopify"],
   rules: {
     "import/extensions": 0,
     "import/no-unresolved": 0,
@@ -42,9 +42,9 @@ module.exports = {
     quotes: ["error", "double"],
     "no-shadow": "off",
     "@typescript-eslint/no-shadow": ["error"],
-    "@shopify/eslint-plugin/jsx-prefer-fragment-wrappers": 1,
-    "@shopify/eslint-plugin/prefer-early-return": 1,
-    "@shopify/eslint-plugin/typescript/prefer-pascal-case-enums": 2,
-    "@shopify/eslint-plugin/typescript/prefer-singular-enums": 2,
+    "@shopify/jsx-prefer-fragment-wrappers": 1,
+    "@shopify/prefer-early-return": 1,
+    "@shopify/typescript/prefer-pascal-case-enums": 2,
+    "@shopify/typescript/prefer-singular-enums": 2,
   },
 };
