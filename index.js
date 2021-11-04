@@ -11,6 +11,7 @@ module.exports = {
     "react/jsx-filename-extension": [1, { extensions: [".tsx"] }],
     "react/require-default-props": 0,
     "react/prop-types": 0,
-    "@shopify/jsx-no-complex-expressions": 1,
+    "@shopify/jsx-prefer-fragment-wrappers": 1,
+    "react/jsx-props-no-spreading": 0,
   },
 };

@@ -26,12 +26,11 @@ module.exports = {
   rules: {
     "import/extensions": 0,
     "import/no-unresolved": 0,
-    "no-use-before-define": "off",
-    "@typescript-eslint/no-use-before-define": ["error"],
+    "no-use-before-define": 0,
     "no-undef": 0,
     "no-unused-vars": 0,
     "import/order": [
-      "error",
+      2,
       {
         "newlines-between": "always",
         alphabetize: { order: "asc", caseInsensitive: true },
@@ -39,10 +38,9 @@ module.exports = {
     ],
     "arrow-body-style": 2,
     "no-underscore-dangle": 0,
-    quotes: ["error", "double"],
-    "no-shadow": "off",
+    quotes: [2, "double"],
+    "no-shadow": 0,
     "@typescript-eslint/no-shadow": ["error"],
-    "@shopify/jsx-prefer-fragment-wrappers": 1,
     "@shopify/prefer-early-return": 1,
     "@shopify/typescript/prefer-pascal-case-enums": 2,
     "@shopify/typescript/prefer-singular-enums": 2,
