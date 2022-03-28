@@ -1,3 +1,6 @@
+/**
+ * Define the base eslint-config for any TypeScript project
+ */
 module.exports = {
   env: {
     browser: true,
@@ -11,7 +14,6 @@ module.exports = {
     "plugin:import/recommended",
     "plugin:import/typescript",
     "prettier",
-    "prettier/@typescript-eslint",
   ],
   globals: {
     Atomics: "readonly",
@@ -44,5 +46,6 @@ module.exports = {
     "@shopify/prefer-early-return": 1,
     "@shopify/typescript/prefer-pascal-case-enums": 2,
     "@shopify/typescript/prefer-singular-enums": 2,
+    "import/prefer-default-export": "off",
   },
 };

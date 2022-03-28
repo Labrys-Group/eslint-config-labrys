@@ -2,31 +2,27 @@
 
 ## Description
 
-Config for Typescript projects at Labrys which incorporates AirBnb, Shopify, prettier, and React Hook configs. Feel free to add/modify rules through pull requests (send me a slack message so I don't miss it).
+Config for Typescript projects at Labrys which incorporates AirBnb, Shopify, prettier, and React Hook configs.
 
 ## Usage
 
-### Installation
+### 1. Install this package
 
 ```bash
-npm install --save-dev eslint-config-labrys
+yarn add -D eslint-config-labrys
 ```
 
-### Install required peer dependencies
+### 2. Install peer dependencies
 
-for React:
+If you have npm 5+ installed on your machine, use this shortcut
 
 ```bash
-npm install --save-dev eslint @typescript-eslint/eslint-plugin @typescript-eslint/parser @shopify/eslint-plugin eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-import eslint-plugin-jsx-a11y typescript
+npx install-peerdeps --dev eslint-config-labrys
 ```
 
-for base:
+Otherwise, run `npm info "eslint-config-labrys@latest"` peerDependencies to list the peer dependencies and versions, then run `yarn add --dev <dependency>@<version>` for each listed peer dependency.
 
-```bash
-npm install --save-dev eslint @typescript-eslint/eslint-plugin @typescript-eslint/parser @shopify/eslint-plugin eslint-plugin-import eslint-plugin-jsx-a11y typescript
-```
-
-### Create Eslint Config
+### 3. Create ESLint Config
 
 Create a file named `.eslintrc.js` and add the following for a React project:
 
@@ -45,3 +41,7 @@ module.exports = {
   parser: "@typescript-eslint/parser",
 };
 ```
+
+## Improving this config
+
+See `CONTRIBUTING.md` in the GitLab repo for a guide on how to contribute to this config.
