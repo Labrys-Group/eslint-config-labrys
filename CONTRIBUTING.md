@@ -9,4 +9,4 @@ When contributing to this repository, please first discuss the change you wish t
 3. Increase the version numbers in `package.json` to the new version that this Pull Request would represent. The versioning scheme we use is [SemVer](http://semver.org/).
 4. Create a Pull Request using the standard Labrys template.
 5. You may merge the Pull Request in once you have approval of the Tech Lead.
-6. CI/CD will deploy the update package to npm.
+6. Checkout `main` and run the `np` command to deploy to `npm`.

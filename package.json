@@ -28,5 +28,9 @@
   },
   "devDependencies": {
     "@shopify/eslint-plugin": "^41.2.0"
-  }
+  },
+  "files": [
+    "base.js",
+    "index.js"
+  ]
 }
