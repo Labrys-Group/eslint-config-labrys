@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-labrys",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Eslint config used at Labrys",
   "main": "index.js",
   "keywords": [
@@ -12,6 +12,7 @@
   "license": "ISC",
   "homepage": "https://gitlab.com/labrysio/labrys/eslint-config-labrys",
   "peerDependencies": {
+    "@shopify/eslint-plugin": "^41.2.0",
     "@typescript-eslint/eslint-plugin": "^5.16.0",
     "@typescript-eslint/parser": "^5.16.0",
     "eslint": "^8.12",
@@ -19,8 +20,7 @@
     "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-plugin-react": "^7.29.4",
     "eslint-plugin-react-hooks": "^4.3.0",
-    "typescript": "^4.6.3",
-    "@shopify/eslint-plugin": "^41.2.0"
+    "typescript": "^4.6.3"
   },
   "dependencies": {
     "eslint-config-airbnb": "^19.0.4",
