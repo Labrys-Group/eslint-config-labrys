@@ -6,13 +6,7 @@ Config for Typescript projects at Labrys which incorporates AirBnb, Shopify, pre
 
 ## Usage
 
-### 1. Install this package
-
-```bash
-yarn add -D eslint-config-labrys
-```
-
-### 2. Install peer dependencies
+### 1. Install package and dependencies
 
 If you have npm 5+ installed on your machine, use this shortcut
 
@@ -22,7 +16,7 @@ npx install-peerdeps --dev eslint-config-labrys
 
 Otherwise, run `npm info "eslint-config-labrys@latest"` peerDependencies to list the peer dependencies and versions, then run `yarn add --dev <dependency>@<version>` for each listed peer dependency.
 
-### 3. Create ESLint Config
+### 2. Create ESLint Config
 
 Create a file named `.eslintrc.js` and add the following for a React project:
 
