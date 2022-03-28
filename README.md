@@ -11,7 +11,7 @@ Config for Typescript projects at Labrys which incorporates AirBnb, Shopify, pre
 If you have npm 5+ installed on your machine, use this shortcut
 
 ```bash
-npx install-peerdeps --dev eslint-config-labrys
+npx install-peerdeps --dev eslint-config-labrys -Y
 ```
 
 Otherwise, run `npm info "eslint-config-labrys@latest"` peerDependencies to list the peer dependencies and versions, then run `yarn add --dev <dependency>@<version>` for each listed peer dependency.
