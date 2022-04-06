@@ -8,6 +8,7 @@ module.exports = {
     "plugin:react-hooks/recommended",
     "airbnb/hooks",
     "plugin:react/jsx-runtime",
+    "prettier",
   ],
   plugins: ["react"],
   rules: {
