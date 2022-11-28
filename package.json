@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-labrys",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Eslint config used at Labrys",
   "main": "index.js",
   "keywords": [
@@ -20,12 +20,12 @@
     "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-plugin-react": "^7.29.4",
     "eslint-plugin-react-hooks": "^4.3.0",
+    "eslint-plugin-eslint-comments": "^3.2.0",
     "typescript": "^4.6.3"
   },
   "dependencies": {
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-prettier": "^8.5.0",
-    "eslint-plugin-eslint-comments": "^3.2.0",
     "np": "^7.6.2"
   },
   "files": [
