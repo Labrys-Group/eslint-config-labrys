@@ -13,6 +13,7 @@ module.exports = {
     "airbnb",
     "plugin:import/recommended",
     "plugin:import/typescript",
+    "plugin:eslint-comments/recommended",
     "prettier",
   ],
   globals: {
@@ -47,5 +48,14 @@ module.exports = {
     "@shopify/typescript/prefer-pascal-case-enums": 2,
     "@shopify/typescript/prefer-singular-enums": 2,
     "import/prefer-default-export": "off",
+    "eslint-comments/require-description": ["error", { ignore: [] }],
+    "import/no-extraneous-dependencies": [
+      "off",
+      {
+        devDependencies: false,
+        optionalDependencies: false,
+        peerDependencies: false,
+      },
+    ],
   },
 };
