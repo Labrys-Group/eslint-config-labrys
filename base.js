@@ -32,7 +32,6 @@ module.exports = {
     "no-use-before-define": 0,
     "no-undef": 0,
     "no-unused-vars": 0,
-    "allowForLoopAfterthoughts": true,
     "import/order": [
       2,
       {
@@ -58,5 +57,8 @@ module.exports = {
         peerDependencies: false,
       },
     ],
+    "no-plusplus": ["error", {
+       "allowForLoopAfterthoughts": true,
+    }],
   },
 };
