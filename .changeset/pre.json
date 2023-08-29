@@ -5,6 +5,7 @@
     "eslint-config-labrys": "1.1.1"
   },
   "changesets": [
-    "eleven-dingos-reflect"
+    "eleven-dingos-reflect",
+    "lovely-parrots-buy"
   ]
 }
