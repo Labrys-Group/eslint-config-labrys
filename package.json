@@ -3,6 +3,11 @@
   "version": "2.0.0-next.0",
   "description": "Eslint config used at Labrys",
   "main": "base.js",
+  "files": [
+    "base.js",
+    "next.js",
+    "native.js"
+  ],
   "keywords": [
     "eslint",
     "eslintconfig",
