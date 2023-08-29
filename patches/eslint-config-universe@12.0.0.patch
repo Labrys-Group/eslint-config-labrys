@@ -1,0 +1,24 @@
+diff --git a/package.json b/package.json
+index 292876b0544ee80f1774fb023fb6e8f0fb5ba440..c072b71b8faf5a89e3dcca1f8a4df98395f5cb21 100644
+--- a/package.json
++++ b/package.json
+@@ -45,7 +45,6 @@
+     "eslint-config-prettier": "^8.8.0",
+     "eslint-plugin-import": "^2.27.5",
+     "eslint-plugin-node": "^11.1.0",
+-    "eslint-plugin-prettier": "^5.0.0",
+     "eslint-plugin-react": "^7.32.2",
+     "eslint-plugin-react-hooks": "^4.6.0"
+   },
+diff --git a/shared/prettier.js b/shared/prettier.js
+index c09bdeb65e832d41517cd24c917471f927459b7a..144d7cfe1f20a3d200d2f57d45298c857c8275be 100644
+--- a/shared/prettier.js
++++ b/shared/prettier.js
+@@ -1,7 +1,3 @@
+ module.exports = {
+   extends: ['prettier'],
+-  plugins: ['prettier'],
+-  rules: {
+-    'prettier/prettier': ['warn'],
+-  },
+ };
