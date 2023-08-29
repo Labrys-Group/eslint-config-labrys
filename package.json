@@ -2,7 +2,7 @@
   "name": "eslint-config-labrys",
   "version": "1.1.1",
   "description": "Eslint config used at Labrys",
-  "main": "index.js",
+  "main": "base.js",
   "keywords": [
     "eslint",
     "eslintconfig",
@@ -13,7 +13,7 @@
     "preinstall": "npx only-allow pnpm"
   },
   "license": "ISC",
-  "homepage": "https://gitlab.com/labrysio/labrys/eslint-config-labrys",
+  "homepage": "https://github.com/Labrys-Group/eslint-config-labrys",
   "peerDependencies": {
     "eslint": ">=8.10",
     "prettier": ">=3"
