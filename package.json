@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-labrys",
-  "version": "2.0.0-next.1",
+  "version": "2.0.0-next.2",
   "description": "Eslint config used at Labrys",
   "main": "base.js",
   "files": [

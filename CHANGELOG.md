@@ -1,5 +1,11 @@
 # eslint-config-labrys
 
+## 2.0.0-next.2
+
+### Patch Changes
+
+- 03267a8: change rule overrides
+
 ## 2.0.0-next.1
 
 ### Patch Changes
