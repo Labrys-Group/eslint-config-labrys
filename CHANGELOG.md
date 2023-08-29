@@ -1,5 +1,11 @@
 # eslint-config-labrys
 
+## 2.0.0-next.1
+
+### Patch Changes
+
+- 2f3d4af: update the files field in package.json
+
 ## 2.0.0-next.0
 
 ### Major Changes
