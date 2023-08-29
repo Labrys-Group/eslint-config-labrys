@@ -1,0 +1,10 @@
+{
+  "mode": "pre",
+  "tag": "next",
+  "initialVersions": {
+    "eslint-config-labrys": "1.1.1"
+  },
+  "changesets": [
+    "eleven-dingos-reflect"
+  ]
+}
