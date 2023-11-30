@@ -26,7 +26,7 @@
   "dependencies": {
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-prettier": "^9.0.0",
-    "np": "^7.6.2"
+    "np": "^8.0.4"
   },
   "files": [
     "base.js",
