@@ -8,9 +8,10 @@ module.exports = {
     "plugin:react-hooks/recommended",
     "airbnb/hooks",
     "plugin:react/jsx-runtime",
-    "prettier",
+    "plugin:@tanstack/eslint-plugin-query/recommended",
+    "prettier"
   ],
-  plugins: ["react"],
+  plugins: ["react", "@tanstack/query"],
   rules: {
     "react/jsx-filename-extension": [1, { extensions: [".tsx"] }],
     "react/require-default-props": 0,
