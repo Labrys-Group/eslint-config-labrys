@@ -8,6 +8,9 @@
     "eslintconfig",
     "labrys"
   ],
+  "scripts": {
+    "test": "exit 0"
+  },
   "author": "Labrys",
   "license": "ISC",
   "homepage": "https://gitlab.com/labrysio/labrys/eslint-config-labrys",
