@@ -1,3 +1,5 @@
+# deprecated as we are running with the t3 eslint rules
+
 # eslint-config-labrys
 
 ## Description
